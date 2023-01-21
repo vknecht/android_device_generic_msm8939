@@ -17,7 +17,7 @@
 PRODUCT_COPY_FILES := \
     $(LOCAL_PATH)/fstab.ramdisk:$(TARGET_COPY_OUT_RAMDISK)/fstab.kiwi \
     $(LOCAL_PATH)/fstab.ramdisk:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.kiwi \
-    device/generic/msm8939/shared/etc/audio.msm8939.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio.kiwi.xml \
+    $(LOCAL_PATH)/etc/audio.kiwi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio.kiwi.xml \
     device/generic/msm8939/shared/init.msm8939.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.kiwi.rc \
     device/generic/msm8939/shared/init.msm8939.usb.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.kiwi.usb.rc \
     device/generic/msm8939/shared/key_layout.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/kiwi.kl
