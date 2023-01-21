@@ -18,6 +18,7 @@ PRODUCT_COPY_FILES := \
     $(LOCAL_PATH)/fstab.ramdisk:$(TARGET_COPY_OUT_RAMDISK)/fstab.idol3 \
     $(LOCAL_PATH)/fstab.ramdisk:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.idol3 \
     $(LOCAL_PATH)/etc/audio.idol3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio.idol3.xml \
+    $(LOCAL_PATH)/etc/sensors.idol3.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/sensors.idol3.rc \
     device/generic/msm8939/shared/init.msm8939.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.idol3.rc \
     device/generic/msm8939/shared/init.msm8939.usb.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.idol3.usb.rc \
     device/generic/msm8939/shared/key_layout.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/idol3.kl
